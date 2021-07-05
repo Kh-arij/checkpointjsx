@@ -1,6 +1,7 @@
 
 import './App.css';
 import   imgone from './images/b.jpg'
+import   imgtwo from './images/a.jpg'
 import   video from './video/V.mp4'
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
             
                 <div  style={style_img}>
 
-                <img   src="imges/a.jpg"       style={{width:'220px'}}  />
+                <img   src={imgtwo}     alt="imgtwo"  style={{width:'220px'}}  />
 
 <img   src={imgone}     style={{width:'220px'}} />
                 </div>
